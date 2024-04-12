@@ -1,0 +1,111 @@
+.task-manager{
+    display: grid;
+    grid-template-columns: auto auto ;
+
+}
+.left-bar{
+    background-color: rgb(99, 104, 109);
+    height: 60pc;
+    width: 20pc;
+}
+.item{
+    padding-top: 25px;
+    list-style: none;
+    font-size: x-large;
+    text-decoration: none;
+    color: black;
+}
+.action-list
+{
+    padding-top: 30px;
+    padding-right: 30px;
+    position: fixed;
+}
+.top{
+    height: 100px;
+    width: 100pc;
+    background-color: aqua;
+    span{
+        padding-left: 95pc;
+    }
+}
+.grid-container {
+    display: grid;
+    gap: 50px;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    grid-column-start: 2;
+  grid-column-end: 2;
+  margin-top: -50pc;
+  }
+  
+  .grid-item1 {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    h1{
+        font-size: larger;
+    }
+    .grid-containr {
+        display: grid;
+        grid-template-rows: auto auto auto;
+        background-color: #4b2200;
+        padding: 10px;
+      }
+      .grid-itm {
+        background-color: rgba(255, 255, 255, 0.8);
+        border: 1px solid rgba(0, 0, 0, 0.8);
+        padding: 20px;
+        font-size: 30px;
+        text-align: center;
+      }
+  }
+  .grid-item2 {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(148, 104, 104, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    h1{
+        font-size: larger;
+    }
+    .grid-containr {
+        display: grid;
+        grid-template-rows: auto auto auto;
+        background-color: #4b2200;
+        padding: 10px;
+      }
+      .grid-itm {
+        background-color: rgba(255, 255, 255, 0.8);
+        border: 1px solid rgba(0, 0, 0, 0.8);
+        padding: 20px;
+        font-size: 30px;
+        text-align: center;
+      }
+
+  }
+  .grid-item3 {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    h1{
+        font-size: larger;
+    }
+    .grid-containr {
+        display: grid;
+        grid-template-rows: auto auto auto;
+        background-color: #4b2200;
+        padding: 10px;
+      }
+      .grid-itm {
+        background-color: rgba(255, 255, 255, 0.8);
+        border: 1px solid rgba(0, 0, 0, 0.8);
+        padding: 20px;
+        font-size: 30px;
+        text-align: center;
+      }
+  }

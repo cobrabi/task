@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create New Project Task Form</title>
+    <link rel="stylesheet" href="createtask.css">
+</head>
+<body>
+    <main>
+        <h1>Create New Project Task Form</h1>
+        <form>
+            <div class="form-group">
+                <label for="taskName">Task Name</label>
+                <input type="text" id="taskName" name="taskName" placeholder="Enter task name">
+            </div>
+            <div class="form-group">
+                <label for="project">Student</label>
+                <select id="project" name="project">
+                    <option value="">Select Project</option>
+                    <option value="project1">student 1 7373231cs340</option>
+                    <option value="project2">student 2 7376231cs370</option>
+                    <option value="project3">student 3 7376321cs149</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="project">Project</label>
+                <select id="project" name="project">
+                    <option value="">Select Project</option>
+                    <option value="project1">Project 1</option>
+                    <option value="project2">Project 2</option>
+                    <option value="project3">Project 3</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="targetDate">Target Date</label>
+                <input type="date" id="targetDate" name="targetDate">
+            </div>
+            <div class="form-group">
+                <label for="taskDetails">Task Details</label>
+                <textarea id="taskDetails" name="taskDetails" rows="4" placeholder="Enter task details"></textarea>
+            </div>
+            <div class="form-group">
+                <label for="attachFiles">Attach Files</label>
+                <input type="file" id="attachFiles" name="attachFiles" multiple>
+            </div>
+            <div class="button-group">
+                <button type="submit"><a href="index.html">Submit Now</a></button>
+                <button type="button"><a href="index.html">Cancel</a></button>
+            </div>
+        </form>
+    </main>
+</body>
+</html>
